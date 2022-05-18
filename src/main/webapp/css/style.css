@@ -1,0 +1,113 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #dcdcdc;
+}
+
+/* ---------------------------------------------------
+    ICON BUTTON STYLE
+----------------------------------------------------- */
+.icon-btn {
+	background-color: #393939;
+	color: #dadada;
+	border-color: #393939;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	box-shadow: 5px 5px 8px grey;
+	transition: all 1s;
+}
+
+.icon-btn:hover {
+	background-color: #dadada;
+	color: #393939;
+	border-color: #dadada; box-shadow : 5px 5px 10px black;
+	transition: all 1s;
+	box-shadow: 5px 5px 10px black;
+	cursor: pointer;
+}
+
+/* ---------------------------------------------------
+    RIGTH BAR STYLE
+----------------------------------------------------- */
+#rigth-bar {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#boxes-bar {
+	position: absolute;
+	top: 20px;
+	right: 100px;
+}
+
+.mask {
+	width: 200px;
+	background-color: #393939;
+	border: 1px solid #393939;
+	box-shadow: 3px 3px 5px #393939;
+	padding-left: 5px;
+}
+
+.mask .title {
+	color: #dadada;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.mask #notify-cont {
+	max-height: 100px;
+	overflow-y: scroll;
+}
+
+.mask a {
+	color: #dadada;
+	text-decoration: none;
+	transition: all 1s;
+}
+
+
+.mask a:hover {
+	color: #fff;
+	padding: 10px;
+	transition: all 1s;
+}
+
+.mask #notify-cont a:hover {
+	color: green;
+}
+
+#user, #notify {
+	visibility: hidden;
+	opacity: 0;
+}
+
+#user.active {
+	visibility: visible;
+	box-shadow: 3px 3px 10px #dadada;
+	opacity: 100%;
+	transition: opacity 0.8s;
+}
+
+#notify.active {	
+	visibility: visible;
+	box-shadow: 3px 3px 10px #dadada;
+	opacity: 100%;
+	transition: opacity 0.8s;
+}
+
+/* ---------------------------------------------------
+    FOOTER STYLE
+----------------------------------------------------- */
+#footer {
+	width: 1000px; margin : 0 auto;
+	text-align: center;
+	color: grey;
+	margin: 0 auto; text-align : center; color : grey;
+	opacity: 50%;
+}

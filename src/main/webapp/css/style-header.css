@@ -1,0 +1,38 @@
+/*******************************************************
+	HEADER STYLE
+*******************************************************/
+#header {
+	padding-top: 10px;
+	text-align: center;	
+	border-bottom: 1px solid black;
+}
+
+#header h1 {
+	color: #393939;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #a5a5a5;
+}
+
+#header #home-btn {
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}
+
+#back-btn {
+	position: absolute;
+	top: 15px;
+	left: 80px;
+}
+
+#header #userCollapse {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
+
+#header #lock-btn {
+	position: absolute;
+	top: 15px;
+	right: 100px;
+}

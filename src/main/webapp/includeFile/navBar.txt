@@ -1,0 +1,32 @@
+<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	<span></span> <span></span> <span></span>
+</button> -->
+ 
+<nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark bg-dark" >
+
+	
+  	
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/home.jsp"><i class="fa fa-home fa-2x" area-hidden="true"></i> Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/RichiediCercaArticolo"><i class="fa fa-clipboard-list fa-2x" area-hidden="true"></i> Inventario</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Rilevazioni"><i class="fa fa-boxes fa-2x" area-hidden="true"></i> Lista Rilevazioni</a>
+      </li>
+      <li class="nav-item">
+      	<a class="nav-link" href="/Estrai"><i class="fa fa-chart-bar fa-2x" area-hidden="true"></i> Estrai</a>
+      </li>
+      <!--  <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li> -->
+    </ul>   
+    <ul class="navbar-nav mr-auto>
+    	<li class="nav-item>
+    		<a class="nav-link" href="/Logout">Logout <i class="fa fa-user fa-2x" area-hidden="true"></i></a>
+    	</li>
+    </ul>
+</nav>

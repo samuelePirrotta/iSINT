@@ -1,0 +1,115 @@
+/* ---------------------------------------------------
+    MASK STYLE
+----------------------------------------------------- */
+#mask {
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+
+#space {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+a.nav-link {
+	text-decoration: none;
+	color: #393939;
+}
+
+input, select{
+	border-radius: 10px;
+	box-shadow: 5px 5px 8px gray;
+}
+
+.width-20 {
+	width: 20%;
+	
+}
+
+.width-30 {
+	width: 30%;
+}
+
+.width-60{
+	width: 60%;
+}
+
+.width-80{
+	width: 80%;
+}
+
+.btn {
+	background-color: #393939;
+	color: #dadada;
+	border-radius: 10px;	
+	transition: all 1s;
+}
+
+.btn:hover {
+	background-color: #dadada;
+	color: #393939;
+	box-shadow: 8px 8px 11px black;
+	transition: all 1s;
+}
+
+/* ---------------------------------------------------
+    TABLE STYLE
+----------------------------------------------------- */
+.table {
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#intestazione {
+	color: #393939;
+	text-align: center;
+	font-weight: bold;
+}
+
+#intestazione td,
+#intestazione th {
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+#dati {
+	background-color: inherit;
+	color: inherit;
+}
+
+#dati:hover td {
+	background-color: #393939;
+	color: white;
+	cursor: pointer;
+}
+
+#dati td {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;	
+	border-collapse: collapse;
+	color: gray;
+}
+
+tbody tr td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	color: gray;
+}
+
+.label {
+	font-weight: bold;
+	font-size: 25px;
+	font-style: italic;
+}
+
+.center {
+	text-align: center;
+}

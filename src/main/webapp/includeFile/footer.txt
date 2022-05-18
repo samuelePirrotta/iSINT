@@ -1,0 +1,11 @@
+<div id="footer">
+	<p>
+	<h5>iSINT - Inventario SINTESI </h5> 
+	<p>
+	<p>
+	<h5>&copy; Samuele Pirrotta 2020</h5>
+	<p>
+	<p>
+	<h6>Contatti: samuele.pirrotta@gmail.com</h6>
+	<p>
+</div>
